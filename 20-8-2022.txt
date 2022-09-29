@@ -1,0 +1,188 @@
+Objects are a programmatical representation of real time entity
+
+
+
+Objects {Dictionary in Python}:
+
+{
+Key(Property) : Values
+}
+
+
+
+
+Iteration of Objects:  For in method
+
+[For in] interates the keys of an object
+
+Object.keys == > Gives an array of keys of an object which can be iterated
+
+Values.keys ==>  Gives an array of values of an object which can be iterated
+
+for (var key in personobj){
+console.log(key) 
+
+
+Second method
+
+Object.keys [Capital O]
+
+
+console.log(Object.keys(personobj))
+
+
+For of method
+
+
+for(var key of Object.keys(personobj)) {
+console.log(key + '==>'  + personobj[key]);
+
+
+
+
+Printing values of keys in object
+
+Object.values(personobj)
+
+
+
+
+
+
+
+
+
+
+Function ()
+
+Combining a set of statements into a function/block which can be executed anywhere anytime in a single statement
+
+
+Function calling/execution/invoking
+
+function printMarks() {
+
+console.log(Marks);
+}
+
+printMarks();
+
+
+
+
+Parameter or Arguments Passing in Function ==> values that being expected from a function in the execution
+
+
+function displayWelcomeMessage(message){
+
+console.log(message);
+}
+
+
+console.log("Hi How R U");
+console.log("Welcome")
+
+
+
+
+Return == > Output of a particular function which can be used to assign or use in other areas of the codebase.
+
+function sum(num1, num2) {
+ var result = num1 + num2;
+return result;
+}
+
+console.log((sum(10, 20));
+
+
+
+
+
+
+Copy by Values
+
+
+
+var z; declaration
+
+z = 100; initialization
+z = 99 ; re-initialization
+
+var z = 100 ; declaration and initialization
+
+
+
+
+var a = 20;
+var b = 30;
+
+function samplefunc(x, y) {
+
+x = 10;
+y = 100;
+
+console.log(x,y);
+
+}
+
+
+
+
+Copy by Reference
+
+We use index of an array for reference
+
+
+
+
+
+
+
+
+
+
+Scopes
+
+Global scope
+Function scope
+Block scope {}
+
+
+
+
+ES6
+Variable types
+
+
+var, let, const
+
+
+var = It denotes a variable
+
+
+let = let it be in this scope
+
+
+const = fixed value within a scope -- > Reinitialization is not allowed in this variable
+
+const z;
+z = 300;
+
+Declaration and initialization is must in const
+
+No simple initialization is allowed in const
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
